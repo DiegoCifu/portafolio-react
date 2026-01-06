@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import fotoPerfil from "../assets/fotoCV.jpg";
 
 export default function Home() {
   return (
@@ -51,9 +52,9 @@ export default function Home() {
           {/* IMAGEN */}
           <div className="flex justify-center">
             <img
-              src="/perfil.jpg"
+              src={fotoPerfil} 
               alt="Foto de Diego Cifuentes"
-              className="w-64 h-64 rounded-full object-cover shadow-lg"
+              className="w-64 h-64 rounded-full object-cover shadow-lg border-4 border-white"
             />
           </div>
 
