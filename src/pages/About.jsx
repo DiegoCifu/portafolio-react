@@ -136,7 +136,7 @@ export default function About() {
       {/* INGLÉS */}
       <div className="border-t pt-10">
         <h2 className="text-2xl font-semibold mb-4">
-          Short summary in English
+          Short summary
         </h2>
 
         <p className="text-gray-700 leading-relaxed">

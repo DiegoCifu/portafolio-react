@@ -1,64 +1,63 @@
-import profileImage from "../assets/fotoCV.jpg";
-import CallToAction from "../components/CallToAction";
+import { Link } from "react-router-dom";
 
-
-function Home() {
+export default function Home() {
   return (
-    <main className="bg-gray-50 min-h-screen flex items-center">
-      <section className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12">
+    <section className="min-h-screen bg-gray-50 flex items-center">
+      <div className="container mx-auto px-6 py-16">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
 
-        {/* Texto */}
-        <div className="flex flex-col justify-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-            Diego Alejandro Cifuentes Posada
-          </h1>
+          {/* TEXTO */}
+          <div>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              Hola, soy <span className="text-blue-600">Diego Cifuentes</span>
+            </h1>
 
-          <h2 className="mt-4 text-xl md:text-2xl text-blue-600 font-semibold">
-            Web Developer Junior
-          </h2>
+            <h2 className="text-xl md:text-2xl text-gray-700 mb-6">
+              Web Developer Junior
+            </h2>
 
-          <p className="mt-6 text-gray-700 text-lg leading-relaxed">
-            Desarrollador web junior enfocado en crear aplicaciones modernas,
-            accesibles y bien estructuradas con tecnologías actuales.
-          </p>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Desarrollador web junior orientado a frontend con experiencia en
+              React, JavaScript, HTML y CSS.  
+              He trabajado en proyectos académicos y personales aplicando buenas
+              prácticas, diseño responsive y enfoque en accesibilidad.
+            </p>
 
-          <p className="mt-4 text-gray-600 italic">
-            Junior Web Developer focused on building clean, accessible and
-            user-friendly web applications.
-          </p>
+            <p className="text-gray-600 leading-relaxed mb-8">
+              También cuento con conocimientos básicos en backend con PHP y MySQL,
+              fundamentos de .NET, nociones de redes y ciberseguridad, además de
+              habilidades complementarias en Python y Excel.
+            </p>
 
-          {/* Botones */}
-          <div className="mt-8 flex gap-4">
-            <a
-              href="/proyectos"
-              className="px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition"
-            >
-              Ver proyectos
-            </a>
+            {/* BOTONES */}
+            <div className="flex flex-wrap gap-4">
+              <Link
+                to="/proyectos"
+                className="px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition"
+              >
+                Ver proyectos
+              </Link>
 
-            <a
-              href="/contacto"
-              className="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg font-medium hover:bg-blue-50 transition"
-            >
-              Contacto
-            </a>
+              <Link
+                to="/contacto"
+                className="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg font-medium hover:bg-blue-50 transition"
+              >
+                Contacto
+              </Link>
+            </div>
           </div>
-        </div>
 
-          {/* Imagen */}
-          <div className="flex justify-center items-center">
+          {/* IMAGEN */}
+          <div className="flex justify-center">
             <img
-              src={profileImage}
+              src="/perfil.jpg"
               alt="Foto de Diego Cifuentes"
-              className="w-64 h-64 rounded-full object-cover shadow-lg border-4 border-white"
+              className="w-64 h-64 rounded-full object-cover shadow-lg"
             />
           </div>
 
-
-      </section>
-    </main>
+        </div>
+      </div>
+    </section>
   );
 }
-
-export default Home;
-<CallToAction />
