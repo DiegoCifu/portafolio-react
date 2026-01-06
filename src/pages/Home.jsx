@@ -32,14 +32,14 @@ export default function Home() {
             {/* BOTONES */}
             <div className="flex flex-wrap gap-4">
               <Link
-                to="/proyectos"
+                to="/Projects"
                 className="px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition"
               >
                 Ver proyectos
               </Link>
 
               <Link
-                to="/contacto"
+                to="/Contact"
                 className="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg font-medium hover:bg-blue-50 transition"
               >
                 Contacto
