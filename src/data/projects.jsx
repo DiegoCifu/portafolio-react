@@ -22,5 +22,14 @@ export const projects = [
     githubUrl: "https://github.com/DiegoCifu/CRUD-php-MySQL",
   },
 
+ {
+  id: 3,
+  title: "TaskMaster Pro – React & TypeScript",
+  description: "...",
+  technologies: ["React", "TypeScript", "Supabase", "Tailwind CSS"],
+  liveUrl: "gestor-tareas-typescript.vercel.app", 
+  githubUrl: "https://github.com/DiegoCifu/gestor-tareas-typescript",
+},
+
 ];
 
