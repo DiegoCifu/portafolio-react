@@ -133,7 +133,7 @@ export default function About() {
           </div>
         </div>
 
-        {/* INGLÉS ACTUALIZADO */}
+        {/* INGLÉS*/}
         <div className="mt-16 border-t border-gray-200 pt-10 max-w-4xl mx-auto">
           <h2 className="text-2xl font-bold mb-4 text-gray-900 text-center md:text-left">
             Short summary

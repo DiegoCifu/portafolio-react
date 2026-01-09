@@ -26,7 +26,7 @@ export default function Home() {
               Web Developer Junior
             </h2>
 
-            {/* DESCRIPCIÓN MEJORADA */}
+            {/* DESCRIPCIÓN */}
             <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-6">
               Desarrollador Web Junior con enfoque en el ecosistema <strong>Frontend moderno (React & TypeScript)</strong>. 
               Tengo experiencia integrando aplicaciones con servicios en la nube como <strong>Supabase (PostgreSQL)</strong>, 
