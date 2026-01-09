@@ -25,9 +25,10 @@ export const projects = [
  {
   id: 3,
   title: "TaskMaster Pro – React & TypeScript",
-  description: "...",
+  description:
+    "Aplicación Fullstack de gestión de tareas con persistencia de datos en tiempo real. Implementé una arquitectura robusta utilizando TypeScript para el tipado estricto, Hooks personalizados para la lógica de estado y una integración completa con Supabase (PostgreSQL) para el almacenamiento. El proyecto destaca por su manejo de operaciones asíncronas, estados de carga y un diseño moderno totalmente responsive construido con Tailwind CSS v4.",
   technologies: ["React", "TypeScript", "Supabase", "Tailwind CSS"],
-  liveUrl: "gestor-tareas-typescript.vercel.app", 
+  liveUrl: "https://gestor-tareas-typescript.vercel.app",
   githubUrl: "https://github.com/DiegoCifu/gestor-tareas-typescript",
 },
 
