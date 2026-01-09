@@ -22,35 +22,36 @@ export default function Home() {
               Hola, soy <span className="text-blue-600">Diego Cifuentes</span>
             </h1>
 
-            <h2 className="text-lg sm:text-xl md:text-2xl text-gray-700 mb-6">
+            <h2 className="text-lg sm:text-xl md:text-2xl text-gray-700 mb-6 font-medium">
               Web Developer Junior
             </h2>
 
+            {/* DESCRIPCIÓN MEJORADA */}
             <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-6">
-              Desarrollador web junior orientado a frontend con experiencia en
-              React, JavaScript, HTML y CSS.  
-              He trabajado en proyectos académicos y personales aplicando buenas
-              prácticas, diseño responsive y enfoque en accesibilidad.
+              Desarrollador Web Junior con enfoque en el ecosistema <strong>Frontend moderno (React & TypeScript)</strong>. 
+              Tengo experiencia integrando aplicaciones con servicios en la nube como <strong>Supabase (PostgreSQL)</strong>, 
+              gestionando estados complejos y consumo de APIs asíncronas. Me apasiona escribir código limpio aplicando buenas 
+              prácticas, diseño responsive y accesibilidad.
             </p>
 
             <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-8">
-              También cuento con conocimientos básicos en backend con PHP y MySQL,
-              fundamentos de .NET, nociones de redes y ciberseguridad, además de
-              habilidades complementarias en Python y Excel.
+              Además, cuento con una base sólida en tecnologías tradicionales como <strong>PHP y MySQL</strong>, 
+              fundamentos de .NET, redes y ciberseguridad, complementando mi perfil con habilidades en Python y Excel 
+              para una visión técnica versátil.
             </p>
 
             {/* BOTONES */}
             <div className="flex flex-col sm:flex-row flex-wrap justify-center md:justify-start gap-4">
               <Link
                 to="/proyectos"
-                className="px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition text-center"
+                className="px-8 py-3 bg-blue-600 text-white rounded-lg font-bold hover:bg-blue-700 transition-all shadow-md hover:shadow-lg text-center"
               >
                 Ver proyectos
               </Link>
 
               <Link
                 to="/contacto"
-                className="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg font-medium hover:bg-blue-50 transition text-center"
+                className="px-8 py-3 border-2 border-blue-600 text-blue-600 rounded-lg font-bold hover:bg-blue-50 transition-all text-center"
               >
                 Contacto
               </Link>
